@@ -1,3 +1,4 @@
+[My Docker Hub](https://hub.docker.com/u/panudet40)
 [![Build Status](https://travis-ci.com/up1/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.com/up1/workshop-depoy-microservice-java)
 
 # Demo :: Deploy microservices with Docker
@@ -30,11 +31,11 @@ $docker image ls
 $docker login
 Login Succeeded
 
-$docker image tag catalog_service:1.0 <username>/catalog_service:1.0
-$docker image push <username>/catalog_service:1.0
+$docker image tag catalog_service:1.0 panudet40/catalog_service:1.0
+$docker image push panudet40/catalog_service:1.0
 
-$docker image tag product_service:1.0 <username>/product_service:1.0
-$docker image push <username>/product_service:1.0
+$docker image tag product_service:1.0 panudet40/product_service:1.0
+$docker image push panudet40/product_service:1.0
 ```
 
 ## Step 5 :: Deploy container with Docker compose
